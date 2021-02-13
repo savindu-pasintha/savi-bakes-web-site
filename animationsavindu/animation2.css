@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: auto;
+}
+
+div{
+	width: 100%;
+	height:auto;
+	background: none;
+	
+}
+.sa,.bk,.fmy,.fd{
+	width: 100%;
+}
+
+.ah1{
+	width: 100%;
+	margin:0;
+	padding: 0;
+	padding-left: 10px;
+	position: absolute;
+	z-index: 15;
+	
+	top: 125px;
+	
+	transform: translateY(0%);/*h1 tag ek udta pahalata kala*/
+
+	text-align: left;
+	color: indigo;
+	font-size: 3em;
+	font-weight: 1000;
+	/*google font*/
+	font-family: 'Great Vibes', cursive;
+	letter-spacing: 1px;
+	
+}
+
+.ah1 h{
+	width: auto;
+	opacity: 0.5;
+	display: inline-block;
+	animation: animate 15s linear forwards;/*animation ek thinn oni time ek */
+}
+.ah1:hover{
+    color: blue;
+	display: inline-block;
+	animation: animate 15s linear forwards;/*animation ek thinn oni time ek */
+}
+@keyframes animate
+{
+	0%{/* 0% dhi kohomd wenn oni kiyn ek*/
+		opacity: 0.5;
+		transform:rotateY(180deg);
+		color: green;
+	}
+	50%{
+		color:blue;
+	}
+	100%{/* 100% k complete weddi animate eke time-20s ek iwar weddi wenn oni de*/
+		opacity: 1;
+		color: red;
+		transform: rotateY(0deg);
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+  box-sizing: border-box;
+}
+.ah{
+	text-align: center;
+	font-family: 'Give You Glory', cursive;
+	font-weight: 50px;
+	background-color: white;
+	color: black;
+	
+}
+#bh{
+    text-align: left;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	background-image: linear-gradient(brown ,white);
+	font-family: 'Reenie Beanie', cursive;
+	border: 2px solid yellow;
+	color: black;
+}
+form{
+	padding-left: 5%;
+	padding-top: 20px;
+}
+
+/*change the input tag width*/
+input[name=q]{
+  width:200px; 
+  height: 50px;
+	             /* NEEDED webkit*/
+  transition:0.2s; -webkit-transition: 0.2s;
+}
+input[name=q]:focus{
+  width:100%;
+}
+ 	
+
+#inputid {
+	
+ /* width: 200px;
+  height: 50px;	*/
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 2px  solid black;
+  margin-bottom: 12px;
+  border-radius: 25px 25px;
+	
+  box-shadow: 12px 10px 25px 5px blue;
+  text-align: left;
+}
+
+#ulid {
+	padding-top: 30px;
+	text-align: left;
+    list-style-type: none;
+    margin: 0;
+	
+	
+}
+
+#ulid li a {
+  border: 2px solid black;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+}
+
+#ulid li a:hover:not(.header) {
+  background-color: darkgray;
+}
+
+
+
+
+
+
+
+
+

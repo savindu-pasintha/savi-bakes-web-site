@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	
+	margin: 0;
+	padding: 0;
+
+}
+.nav{
+	
+	
+	padding-left:0%;
+	font-family: 'Nanum Gothic', sans-serif;
+	width:100%;
+	height:auto;
+	
+	background-color:black;
+	/*gray pata*/
+	position: fixed;
+	box-sizing: auto;
+	box-shadow: 20px 2px 90px 1px yellow; 
+	
+	padding-top: 25px;/* nav bar content ek pahalata gatta*/
+
+	z-index: 20;
+}
+
+.nav ul li a{
+	width: 10rem;
+	height: auto;
+	background-color: rgba(0,0,25,0.10);
+	/*gray pata inside box*/
+	font-size: 20px;
+	font-weight: 900;
+	border: 1px solid black;
+	text-decoration: none;
+	text-align: left;
+	color: white;
+	
+
+	
+	text-shadow: 2px 3px 0px ; 
+	box-shadow: 2px 5px black;
+}
+
+.nav ul li a:hover{
+	height: auto;
+	box-shadow: 3px 10px black;
+ 
+	background-color: black; 
+	font-size:30px ;
+	border-bottom: 5px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

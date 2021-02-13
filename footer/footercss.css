@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	
+	background-color: black;
+}
+footer{
+    
+    width:auto;
+    height: auto;
+}
+.B3{
+
+    width: auto;
+    height: auto;
+    background-color: black;
+    color: aliceblue;
+}
+.B1{
+    width: auto;
+    height:auto;
+    background-color:black;
+    text-align: center;
+ }
+.B2{
+	background-color: black;
+}
+
+.B1 li{
+    list-style: none;
+    padding-top: 5px;
+	
+	left: auto;
+	right: auto;
+    display: inline-block;
+}
+i.fa{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	color: red;
+	
+	padding: 20px;
+	
+	border: 2px solid #818181;
+    border-radius: 50%;
+	margin:auto; 
+	}
+#addressmap{
+	margin: 0;
+	color: white;
+	border: none;
+	font-size: 25px;
+}
+
+i.fa:hover{
+	
+	color:aqua;
+	border: 4px solid white;
+	
+	font-size: 30px;
+}
+
+.line{
+    border-bottom:3px solid medium;  
+}
+
+.copy{
+    padding-top: 5px;
+    color: aliceblue;
+    font-size: 12px;
+    text-align: center;
+}
+.copy:hover{
+	font-size: 30px;
+	color: rgba(230,220,151,1.00);
+}
+
+
+
+
